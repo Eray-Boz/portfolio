@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eray Boz Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">Eray</div>
+        <ul class="navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="section home-section">
+        <h2 class="job-title">Computer Engineer</h2>
+        <h1 class="main-title">Hello, I'm Eray Boz</h1>
+        <a href="01_Intoduction_to_Web_Technologies.pdf" download class="download-cv-btn">Download CV</a>
+        <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><img src="linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://github.com" target="_blank" aria-label="GitHub"><img src="github.svg" alt="GitHub"></a>
+        </div>
+    </section>
+    <section id="about" class="section about-section">
+        <h2>About Me</h2>
+        <p>
+            I am currently completing my second year of Computer Engineering, which I study entirely in English. Throughout my academic journey so far, I have discovered a strong passion and curiosity for learning, especially when it comes to transforming theoretical knowledge into practical experience.
+            This eagerness to learn and grow has led me to seek internship opportunities where I can apply what I've learned in a real-world environment. Based on my coursework and personal interests, I find myself particularly drawn to areas such as backend development, machine learning, artificial intelligence, and databases.
+            Beyond my studies, I am actively working on personal projects to sharpen my skills and explore these fields further. I believe that my enthusiasm, dedication, and willingness to learn will be clearly reflected through both my academic background and my commitment to continuous self-improvement. I am excited about the possibility of contributing to a professional team, gaining hands-on experience, and continuing to grow as a future engineer.
+        </p>
+        <div class="about-buttons">
+            <button class="about-btn" data-tab="experience">Experience</button>
+            <button class="about-btn" data-tab="education">Education</button>
+            <button class="about-btn" data-tab="skills">Skills</button>
+        </div>
+        <div class="about-content" id="about-content"></div>
+    </section>
+    <section id="projects" class="section projects-section">
+        <h2>Projects</h2>
+        <div class="projects-list" id="projects-list">
+            
+        </div>
+    </section>
+    <section id="contact" class="section contact-section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> +123 456 7890</p>
+            <p><strong>Email:</strong> eray@example.com</p>
+            <p><strong>Location:</strong> Istanbul, Turkey</p>
+        </div>
+        <form class="contact-form" id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html> 
